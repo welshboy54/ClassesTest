@@ -30,7 +30,7 @@ namespace ClassesTest
             Console.WriteLine("Constructor with no paremeter called");
         }
 
-        public Car(string color)
+        public Car(string color) : this()
         {
             this.color = color;
         }
